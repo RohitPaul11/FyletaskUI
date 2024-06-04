@@ -1,0 +1,58 @@
+.feedback-section {
+  text-align: center;
+  padding: 20px;
+  height: auto;
+  background-color: #f9f9f9;
+  position: relative; /* Ensures that absolutely positioned elements are relative to this container */
+}
+
+.feedback-title {
+  color: #ff3147;
+}
+
+.feedback-subtitle {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.testimonial {
+  font-style: italic;
+  margin: 20px 0;
+}
+
+.client-name {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ff3147;
+  display: flex;
+  justify-content: center;
+}
+
+.banner, .group {
+  position: absolute;
+  top: 20px; 
+  left: 0;
+}
+
+.banner {
+  z-index: 0;
+  left: 0; 
+  height: 300px; 
+  width: 100%;
+}
+
+.group {    /*icons*/
+  z-index: 1; 
+  left: 0; 
+  align-items: center;
+  margin: 120px 30px 40px 60px;
+}
+
+.logos1 {
+  position: relative; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+ 
+}
